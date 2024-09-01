@@ -78,14 +78,11 @@ def main(cfg):
     game_over = False
     game_close = False
 
-    init_x = cfg.display.dis_width / 2
-    init_y = cfg.display.dis_height / 2
-
     x1_change = 0
     y1_change = 0
 
     snake_obj = Snake(
-        init_x, init_y,
+        cfg.display.dis_width, cfg.display.dis_height,
         tuple(map(lambda y: int(y.strip()), cfg.colors.snake_color.split(','))),
         cfg.snake.snake_block
     )

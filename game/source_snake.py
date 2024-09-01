@@ -2,11 +2,11 @@ import pygame
 
 
 class Snake:
-    def __init__(self, init_x, init_y, color, snake_block):
+    def __init__(self, dis_width, dis_height, color, snake_block):
         self.snake_list = list()
         self.snake_color = color
-        self.cur_x = init_x
-        self.cur_y = init_y
+        self.cur_x = dis_width / 2
+        self.cur_y = dis_height / 2
         self.snake_block = snake_block
         self.length_of_snake = 1
 
