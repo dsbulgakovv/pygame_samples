@@ -20,5 +20,5 @@ class Dashboard:
         display.blit(value, [0, 0])
 
     def draw_end_dashboard(self, display):
-        msg = self.score_font_obj.render(quit_txt, True, self.color)
+        msg = self.score_font_obj.render(self.quit_txt, True, self.color)
         display.blit(msg, [self.dis_width / 6, self.dis_height / 3])

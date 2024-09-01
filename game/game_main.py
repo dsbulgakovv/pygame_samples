@@ -53,6 +53,7 @@ def game_loop(
     snake_obj.draw_snake(display)
 
     # 4 - Score
+    dashboard_obj.cur_score = snake_obj.length_of_snake - 1
     dashboard_obj.draw_score(display)
 
     pygame.display.update()
@@ -118,6 +119,7 @@ def main(cfg):
                         game_over = True
                         game_close = False
                     if event.key == pygame.K_c:
+                        hydra.core.global_hydra.GlobalHydra.instance().clear()
                         main()
 
         game_over, game_close, x1_change, y1_change = game_loop(
