@@ -1,3 +1,6 @@
+main:
+    game_title: 'Snake Game'
+
 colors:
     white: '255, 255, 255'
     yellow: '255, 255, 102'
@@ -13,6 +16,9 @@ colors:
 display:
     dis_width: 600
     dis_height: 400
+
+food:
+    block: 10
 
 snake:
     snake_block: 10
