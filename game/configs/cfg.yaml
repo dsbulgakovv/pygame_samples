@@ -1,0 +1,33 @@
+colors:
+    white: '255, 255, 255'
+    yellow: '255, 255, 102'
+    black: '0, 0, 0'
+    red: '213, 50, 80'
+    green: '0, 255, 0'
+    blue: '50, 153, 213'
+    background_color: '97, 189, 6' # light green
+    snake_color: '184, 97, 17' # brown
+    score_color: '255, 255, 255' # white
+    food_color: '219, 213, 15' # light yellow
+
+display:
+    dis_width: 600
+    dis_height: 400
+
+snake:
+    snake_block: 10
+    snake_speed: 10
+    snake_speed_1: 5
+    snake_speed_2: 6
+    snake_speed_3: 8
+    snake_speed_4: 12
+    snake_speed_5: 17
+
+fonts:
+    font_style: 'bahnschrift'
+    font_style_size: 25
+    score_font: 'comicsansms'
+    score_font_size: 35
+
+texts:
+    quit_txt: 'You Lost! Press key C to play again or Q to quit'
